@@ -1,0 +1,351 @@
+body{
+	margin:0;
+}
+.box{
+	left: 0;
+	right: 0;
+}
+.box-img{
+	width: 100%;
+	margin-bottom: -4px;
+}
+#right-menu{
+	position: fixed;
+	right: 0;
+	width: 40px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.right-menu-btn{
+	position: fixed;
+	height: 40px;
+	width: 100%;
+}
+.romb{
+	height: 20px;
+	width: 20px;
+	background-color: rgba(0,0,0,0.8);
+	border: solid #aaa 2px;
+	transform: translate(-50%,-50%) rotate(45deg);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	z-index: 1;
+}
+.h-romb{
+	height: 15px;
+	width: 15px;
+	background-color: #fff;
+	opacity: 0;
+
+	transform: translate(-50%,-50%) rotate(45deg);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	z-index: 1;	
+}
+.right-menu-btn:hover .h-romb{
+	border-color: #fff;
+}
+.right-menu-btn:hover .romb{
+	opacity: 1;	
+}
+.right-menu-btn-text{
+	position: absolute;
+	font-size: 25px;
+	right: 100%;
+	color: #ff0;
+	padding: 5px;
+	text-shadow: 0 0 10px #000;
+	transform: translateX(100%);
+	opacity: 0;
+	transition-property: transform opacity;
+}
+.romb:hover .right-menu-btn-text{
+	transform: translateX(0);
+	opacity: 1;
+}
+#top-menu{
+	position: fixed;
+	top: 0;
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+	left: 80px;
+}
+#top-menu a{
+	text-decoration: none;
+}
+.top-menu-btn{
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+	height: 30px;
+	padding: 5px;
+	display: inline-block;
+	font-size: 25px;
+	transition-duration: 200ms;
+	transition-property: background-color, border-color;
+	border-left: solid transparent 2px;
+	border-right: solid transparent 2px;
+}
+.top-menu-btn:hover{
+	background-color: #222;
+	border-color: #606060;
+}
+.top-submenu{
+	position: absolute;
+	background-color: #222;
+	left: 0;
+	top: 100%;
+	transform: translateX(100%);
+	opacity: 0;
+	transition-property: transform opacity;
+	z-index: -1;
+
+}
+.top-submenu-btn:hover .top-submenu{
+	opacity: 1;
+	transform: translateY(0);
+}
+.top-submenu-btn{
+	transition-duration: 200ms;
+	transition-property: background-color;
+	color: #aaa;
+}
+.top-submenu-btn:hover{
+	background-color: rgba(32,32,32,0.9);
+	color: #fff;
+}
+#ramka .line{
+	background-color: #974;
+	position: absolute;
+}
+#ramka .hor-line{
+	height: 2px;
+	left: 80px;
+	right: 80px;	
+}
+#ramka .ver-line{
+	top: 80px;
+	bottom: 80px;
+	width: 2px;
+}
+#ramka .top-line{
+	top: 40px;
+}
+#ramka .left-line{
+	left: 40px;
+}
+#ramka .right-line{
+	right: 40px;
+}
+#ramka .bottom-line{
+	bottom: 40px;
+}
+#ramka .img{
+	position: absolute;
+	height: 80px;
+}
+#ramka .img-top-left{
+	top: 0;
+	left: 0;
+}
+#ramka .img-top-right{
+	right: 0;
+	top: 0;
+}
+#ramka .img-bottom-left{
+	bottom: 0;
+	left: 0;
+}
+#ramka .img-bottom-right{
+	bottom: 0;
+	right: 0;
+}
+#ramka{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+.box-title{
+	 position: absolute;
+	 top: 50%;
+	 transform: translateY(-50%);
+}
+#box1-title{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+#box1-title p{
+	font-size: 40px;
+	color: #974;
+	text-shadow: -3px -3px 5px #677776;
+}
+#box2-title{
+	transform: translateY(-50%);
+	left: 42px;
+}
+#box2-title-text{
+	left: 5%;
+	position: relative;
+}
+#box2-title-text .element{
+	max-width: 600px;
+	box-shadow: 0 0 20px #000;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 50px;
+}
+#box2-title-text .element b{
+	font-size: 30px;
+	text-shadow: 0 0 20px #000;
+	color: #543;
+}
+#box2-title-text .element img{
+	width: 100%;
+}
+#box2-title-text .element p{
+	font-size: 20px;
+	text-shadow: 0 0 20px #000;
+	color: #546;
+}
+#box2-title-gallery{
+	position: absolute;
+	right: 0;
+	background-color: #754000;
+	height: 360px;
+	width: 640px;
+	transform: translateY(-50%);
+	top: 50%;
+	border-left: solid #657576 
+}
+.gold-btn{
+	height: 40px;
+	font-size: 35px;
+	color: #000;
+	background-color: #fff;
+	background-image: linear-gradient(70deg,rgba(194,154,54,0.8) 35%,rgba(231,203,97,0.8),rgba(195,15,54,0.8)65%);
+	display: inline-block;
+	padding: 10%;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-shadow: -1px -1px 0 #000;
+	transition-duration: 200ms;
+	transition-property: background-color;
+	-webkit-clip-path: polygon(
+		0%,0%,
+		100%,0%,
+		100% calc(50% - 7px),
+		calc(100%  - 7px)50%,
+		100% calc(50% + 7px),
+		100% 100%,
+		0% 100%,
+
+		100%,100%,
+		0%,100%,
+		0% calc(50% - 7px),
+		calc(0%  - 7px)50%,
+		0% calc(50% + 7px),
+		0% 0%,
+		100% 0%,
+
+		);
+}
+.gold-btn:hover{
+	background-color: #658;
+}
+.romb-btn{
+	border: solid #589 1px;
+	background-color: rgba(76,67,67,0.8);
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	transform: rotate(45deg);
+	box-shadow: 0 0 25px #000;
+
+}
+#controls{
+
+}
+#controls .joystick{
+	height: 50px;
+	width: 40px;
+	border: double #333 5px;
+	border-radius: 50%;
+	background-color: #111;
+	position: absolute;
+	top: 70px;
+	left: -85px;
+}
+#controls .buttons{
+	position: absolute;
+	height: 90px;
+	width: 90px;
+	top: 170px;
+	left: -100px;
+}
+#controls .button{
+	position: absolute;
+	height: 18px;
+	width: 18px;
+	background-color: #111;
+	border-radius: 50%;
+	color: #fff;
+	padding: 6px;
+	text-align: center;
+}
+#controls .button-top{
+	top: 0;
+	left: 30px;
+}
+#controls .button-left{
+	left: 0;
+	top: 30px;
+}
+#controls .button-right{
+	right: 0;
+	top: 30px;
+}
+#controls .button-bottom{
+	bottom: 0;
+	left: 30px;
+}
+#box3-title{
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	transform: translateX(-50%);
+	right: 100px;
+	width: 512px;
+	color: #ddd;
+	text-shadow: 0 0 10px #000;
+}
+#box3-title h1{
+	color: #266;
+	margin: 0;
+}
+#box3-title hr{
+	color: #405040;
+}
+#box3-title table{
+
+}
+#box3-title .table-img{
+	width: 250px;
+}
+#box3-title .descr{
+	position: absolute;
+	bottom: 0;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	color: #ddd;
+}
+#box3-title th{
+	position: relative;
+	border: double #266 5px; 
+	font-size: 0
+}
