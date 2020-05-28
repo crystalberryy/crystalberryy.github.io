@@ -86,9 +86,11 @@ body{
 	transition-property: background-color, border-color;
 	border-left: solid transparent 2px;
 	border-right: solid transparent 2px;
+	text-align: center;
+	background-color: #9400D3;
 }
 .top-menu-btn:hover{
-	background-color: #222;
+	background-color: #FFDAB9;
 	border-color: #606060;
 }
 .top-submenu{
