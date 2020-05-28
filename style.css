@@ -182,6 +182,11 @@ body{
 	right: 50%;
 	transform: translateX(-50%);
 	text-align: center;
+	background-color: #FFEFD5;
+}
+#box1-title:hover{
+	background-color: #FFFAFA;
+	color: #800080;
 }
 #box1-title p{
 	font-size: 40px;
