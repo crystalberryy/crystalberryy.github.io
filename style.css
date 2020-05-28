@@ -70,7 +70,7 @@ body{
 	top: 0;
 	color: #fff;
 	text-shadow: 0 0 10px #000;
-	left: 80px;
+	left: 50%;
 }
 #top-menu a{
 	text-decoration: none;
@@ -86,7 +86,6 @@ body{
 	transition-property: background-color, border-color;
 	border-left: solid transparent 2px;
 	border-right: solid transparent 2px;
-	left: 50%;
 	background-color: #9400D3;
 }
 .top-menu-btn:hover{
