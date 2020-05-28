@@ -86,7 +86,7 @@ body{
 	transition-property: background-color, border-color;
 	border-left: solid transparent 2px;
 	border-right: solid transparent 2px;
-	text-align: center;
+	left: 50%;
 	background-color: #9400D3;
 }
 .top-menu-btn:hover{
