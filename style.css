@@ -70,7 +70,7 @@ body{
 	top: 0;
 	color: #fff;
 	text-shadow: 0 0 10px #000;
-	left: 50%;
+	text-align: center;
 }
 #top-menu a{
 	text-decoration: none;
