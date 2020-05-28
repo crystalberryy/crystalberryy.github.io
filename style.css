@@ -338,8 +338,8 @@ body{
 #box3-title hr{
 	color: #405040;
 }
-#box3-title table{
-
+#box3-title p{
+ background-color: #DC143C
 }
 #box3-title .table-img{
 	width: 250px;
