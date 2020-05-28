@@ -330,7 +330,7 @@ body{
 	width: 512px;
 	color: #FFD700;
 	text-shadow: 0 0 10px #000;
-	background-color: 
+	background-color: #F08080;
 }
 #box3-title h1{
 	color: #266;
@@ -340,7 +340,7 @@ body{
 	color: #405040;
 }
 #box3-title p{
- background-color: #DC143C
+ background-color: #DC143C;
 }
 #box3-title .table-img{
 	width: 250px;
@@ -356,7 +356,7 @@ body{
 #box3-title th{
 	position: relative;
 	border: double #266 5px; 
-	font-size: 0
+	font-size: 0;
 }
 .button-button-top{
 	color: #ffffff;
@@ -371,5 +371,5 @@ body{
 	color: #FF00FF;
 }
 .btnhover:hover{
-	color: #8A2BE2
+	color: #8A2BE2;
 }
