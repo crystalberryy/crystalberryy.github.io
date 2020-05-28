@@ -350,3 +350,18 @@ body{
 	border: double #266 5px; 
 	font-size: 0
 }
+.button-button-top{
+	color: #ffffff;
+}
+.button-button-left{
+	color: #F08080;
+}
+.button-button-right{
+	color: #FFB6C1;
+}
+.button-button-bottom{
+	color: #FF00FF;
+}
+.btnhover:hover{
+	color: #8A2BE2
+}
