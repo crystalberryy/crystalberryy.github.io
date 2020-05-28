@@ -71,6 +71,7 @@ body{
 	color: #fff;
 	text-shadow: 0 0 10px #000;
 	text-align: center;
+	width: 100%;
 }
 #top-menu a{
 	text-decoration: none;
